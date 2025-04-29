@@ -1,89 +1,985 @@
 {
-  "Trinity Force": {
-    "cost": 3333,
-    "stats": {
-      "attack_damage": 30,
-      "attack_speed": 30,
-      "health": 300
+    "Trinity Force": {
+        "cost": 3333,
+        "tags": ["Bruiser", "Ad", "Split Push", "Move Speed", "Ability Haste"],
+        "stats": {
+            "attack_damage": {
+                "flat": 36,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 30,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 333,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "percent": 15,
+                "type": "bonus" 
+            }
+        },
+        "passive": "Spellblade - After using an ability your next attack does bonus physical damage on hit. Attacking gains 20 move speed for 2 seconds.",
+        "exclusive_group": "Sheen"
     },
-    "passive": "Threefold Strike"
-  },
-  "Titanic Hydra": {
-    "cost": 3300,
-    "stats": {
-      "attack_damage": 40,
-      "health": 500
+    "Lichbane": {
+        "tags": ["Assassin", "Ap", "Split Push", "Move Speed", "Ability Haste"],
+        "cost": 3200,
+        "stats": {
+            "ability_power": {
+                "flat": 115,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": "After using an ability, your next attack deals bonus magic damage on-hit",
+        "exclusive_group": "Sheen"
     },
-    "passive": "Cleave"
-  },
-  "Blade of the Ruined King": {
-    "cost": 3300,
-    "stats": {
-      "attack_damage": 40,
-      "attack_speed": 25,
-      "lifesteal": 8
+    "Ice Born Gauntlets": {
+        "tags": ["Bruiser", "Split Push", "Tank", "Ability Haste"],
+        "cost": 2900,
+        "stats": {
+            "health": {
+                "flat": 300,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 50,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": "After using an ability, your next attack deals bonus physical damage on-hit",
+        "exclusive_group": "Sheen"
     },
-    "passive": "Mist's Edge"
-  },
-  "Riftmaker": {
-    "cost": 3000,
-    "stats": {
-      "ability_power": 70,
-      "health": 300,
-      "omnivamp": 10
+    "Infinity Edge": {
+        "tags": ["Ad", "Assassin", "Marksman", "Crit"],
+        "cost": 3400,
+        "stats": {
+            "attack_damage": {
+                "flat": 65,
+                "type": "bonus"
+            },
+            "critical_strike_chance": {
+                "percent": 25,
+                "type": "bonus"
+            },
+            "critical_strike_damage": {
+                "percent": 40,
+                "type": "bonus"
+            }
+        },
+        "passive": "Perfection - If you have ≥ 40% crit chance, deal 35% bonus critical strike damage.",
+        "exclusive_group": ""
     },
-    "passive": "Void Corruption"
-  },
-  "Black Cleaver": {
-    "cost": 3100,
-    "stats": {
-      "attack_damage": 55,
-      "health": 400,
-      "ability_haste": 20
+    "Bloodthirster": {
+        "tags": ["Ad", "Lifesteal", "Marksman"],
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+                "flat": 80,
+                "type": "bonus"
+            },
+            "life_steal": {
+                "percent": 15,
+                "type": "lifesteal"
+            }
+        },
+        "passive": "Ichorshield - Convert excess healing from your lifesteal to a shield.",
+        "exclusive_group": ""
     },
-    "passive": "Carve"
-  },
-  "Death's Dance": {
-    "cost": 3300,
-    "stats": {
-      "attack_damage": 55,
-      "armor": 45,
-      "ability_haste": 15
+    "Overlord's Bloodmail": {
+        "tags": ["Tank", "Ad"],
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+            "flat": 30,
+            "type": "bonus"
+            },
+            "health": {
+                "flat": 550,
+                "type": "bonus"
+            }
+        },
+        "passive": "Tyranny - Gain 2.5% of your bonus health as Attack Damage. Retribution - Gain up to 12% increased Attack Damage based on your percent missing health.",
+        "exclusive_group": ""
     },
-    "passive": "Ignore Pain"
-  },
-  "Liandry's Torment": {
-    "cost": 3000,
-    "stats": {
-      "ability_power": 80,
-      "health": 600
+    "Mortal Reminder": {
+        "tags": ["Ad", "Assassin", "Grevious Wounds"],
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "armor_penetration": {
+                "percent": 35,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "percent": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Mortal Reminder",
+            "effects": [
+                {
+                    "type": "grievous_wounds",
+                    "value": 40,
+                    "trigger": "on damage dealt",
+                    "duration": 3
+                }
+            ]
+        },
+        "exclusive_group": "Grievous Wounds"
     },
-    "passive": "Torment"
-  },
-  "Sunfire Aegis": {
-    "cost": 3200,
-    "stats": {
-      "health": 500,
-      "armor": 50,
-      "magic_resist": 50
+    "Chempunk Chainsword": {
+        "tags": ["Grevious Wounds", "Ad", "Ability Haste", "Bruiser"],
+        "cost": 3100,
+        "stats": {
+            "attack_damage": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 450,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Hackshorn",
+            "effects": [
+                {
+                    "type": "grievous_wounds",
+                    "value": 40,
+                    "trigger": "on damage dealt",
+                    "duration": 3
+                }
+            ]
+        },
+        "exclusive_group": "Grievous Wounds"
     },
-    "passive": "Immolate"
-  },
-  "Jak'Sho, The Protean": {
-    "cost": 3200,
-    "stats": {
-      "health": 400,
-      "armor": 40,
-      "magic_resist": 40
+    "Morellonomicon": {
+        "tags": ["Grevious Wounds", "Bruiser", "Ap"],
+        "cost": 2950,
+        "stats": {
+            "ability_power": {
+                "flat": 75,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Grievous Wounds",
+            "effects": [
+                {
+                    "type": "grievous_wounds",
+                    "value": 40,
+                    "trigger": "on damage dealt",
+                    "duration": 3
+                }
+            ]
+        },
+        "exclusive_group": "Grievous Wounds"
     },
-    "passive": "Voidborn Resilience"
-  },
-  "Zhonya's Hourglass": {
-    "cost": 3000,
-    "stats": {
-      "ability_power": 120,
-      "armor": 50
+    "Ravenous Hydra": {
+        "tags": ["Lifesteal", "Ability Haste", "Ad", "Split Push"],
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+                "flat": 65,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "life_steal": {
+                "percent": 12,
+                "type": "lifesteal"
+            }
+        },
+        "passive": {
+            "name": "cleave",
+            "effects": [
+                {
+                    "type": "cleave",
+                    "damage_type": "physical",
+                    "area": "cone",
+                    "trigger": "on basic attack",
+                    "description": "Deals a portion of your AD to nearby enemies."
+                }
+            ]        
+        },
+        "exclusive_group": "Tiamat"
     },
-    "active": "Stasis"
-  }
+    "Titanic Hydra": {
+        "tags": ["Split Push", "Tank", "Bruiser", "Ad"],
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 600,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "cleave",
+            "effects": [
+                {
+                    "type": "cleave",
+                    "damage_type": "physical",
+                    "area": "cone",
+                    "trigger":"on basic attack",
+                    "description": "Deals a portion of your AD to nearby enemies."
+                }
+            ]
+        },
+        "exclusive_group": "Tiamat"
+    },
+    "Death's Dance": {
+        "tags": ["Assassin", "Ad", "Ability Haste"],
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 50,
+                "type": "bonus"
+            }
+        },
+        "passive": "Ignore Pain - A percentage of damage taken is dealth to you over 3 seconds instead. Defy - When a champion that you damaged within 3 seconds dies, cleanse ignore pain's remaining damage and restore Health over 2 seconds.",
+        "exclusive_group": ""
+    },
+    "Stridebreaker": {
+        "tags": ["Split Push", "Ad", "Bruiser"],        
+        "cost": 3300,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 25,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 450,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Heroic Gait",
+            "effects": [
+                {
+                    "type": "slow",
+                    "damage_type": "physical",
+                    "area": "cone", 
+                    "trigger": "active cast",
+                    "description": "Deals a portion of your AD to nearby enemies and slows them by 35%, Gain 35% decaying move speed per champion hit for 3 seconds."
+                }
+            ]
+        },
+        "exclusive_group": "Tiamat"
+    },
+    "Moonstone Renewer": {
+        "tags": ["Support", "Tank", "Ability Haste"],
+        "cost": 2300,
+        "stats": {
+            "ability_power": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "mana_regen": {
+                "percent": 150,
+                "type": "base"
+            }
+        },
+        "passive": {
+            "name": "Starlit Grace",
+            "effects": [
+                {
+                    "type": "heal_power",
+                    "value": 30,
+                    "modifier_type": "bonus"
+                },
+                {
+                    "type": "shield_power",
+                    "percent": 35,
+                    "modifier_type": "bonus"
+                }
+            ]
+        },
+        "exclusive_group": "Support"
+    },
+    "Celestial Opposition": {
+        "tags": ["Support", "Tank"],
+        "cost": 400,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "gold_per_10_seconds": {
+                "flat": 5,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Blessing of the Mountain",
+            "effects": [
+                {
+                    "type": "slow",
+                    "value": {
+                        "percent": 50,
+                        "type": "percent"
+                    },
+                    "duration": 1.5
+                },
+                {
+                    "type": "damage_reduction",
+                    "value": {
+                        "percent": 10,
+                        "type": "bonus"
+                    },
+                    "condition": "near allies"
+                }    
+            ]
+        },
+        "active": {
+            "name": "Wards",
+            "effects": [
+                {
+                    "type": "ward",
+                    "value": 4
+                }
+            ]
+        },
+        "exclusive_group": "Support"
+    },
+    "Dream Maker": {
+        "tags": ["Support"],
+        "cost": 400,
+        "stats": {
+            "health": 200,
+            "health_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "gold_per_10_seconds": {
+                "flat": 5,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Dream Maker",
+            "effects": [
+                {
+                    "type": "bonus_damage",
+                    "value": 90,
+                    "attacks": 3
+                }
+            ]
+        },
+        "active": {
+            "name": "Wards",
+            "effects": [
+                {
+                    "type": "ward",
+                    "value": 4
+                }
+            ]
+        },
+        "exclusive_group": "Support"
+    },
+    "ZazZak's Realmspike": {
+        "tags": ["Support"],
+        "cost": 400,
+        "stats": {
+            "health": 200,
+            "health_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "gold_per_10_seconds": {
+                "flat": 5,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Void Explosion",
+            "effects": [
+                {
+                    "type": "bonus_damage",
+                    "value": 90
+                },
+                {
+                    "condition": "damage enemy"
+                }
+            ]
+        },
+        "active": {
+            "name": "Wards",
+            "effects": [
+                {
+                    "type": "ward",
+                    "value": 4
+                }
+            ]
+        },
+        "exclusive_group": "Support"
+    },
+    "Solstice Sleigh": {
+        "tags": ["Support"],
+        "cost": 400,
+        "stats": {
+            "health": 200,
+            "health_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "gold_per_10_seconds": {
+                "flat": 5,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Going Sledding",
+            "effects": [
+                {
+                    "type": "restores_health",
+                    "value": {
+                        "min": 50,
+                        "max": 230,
+                        "scaling": "based_on_level",
+                        "type": "flat"
+                    }
+                },
+                {
+                    "condition": "near allies"
+                }
+            ]
+        },
+        "active": {
+            "name": "Wards",
+            "effects": [
+                {
+                    "type": "ward",
+                    "value": 4
+                }
+            ]
+        },
+        "exclusive_group": "Support"
+    },
+    "Bloodsong": {
+        "tags": ["Support", "Ad", "Assassin"],
+        "cost": 400,
+        "stats": {
+            "health": {
+                "flat": 200,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 75,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 75,
+                "type": "bonus"
+            },
+            "gold_per_10_seconds": {
+                "flat": 5,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Spellblade",
+            "effects": [
+                {
+                    "type": "bonus_damage",
+                    "value": {
+                        "percent": 100,
+                        "type": "percent"
+                    },
+                    "condition": "after using an ability"
+                }
+            ]
+        },
+        "exclusive_group": "Support"
+    },
+    "Rabadon's Deathcap": {
+        "tags": ["Ap", "Assassin"],
+        "cost": 3600,
+        "stats": {
+            "ability_power": {
+                "flat": 130,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Magical Opus",
+            "effects": [
+                {
+                    "type": "ability_power_multiplier",
+                    "value": {
+                        "percent": 30,
+                        "type": "percent"
+                    }
+                }
+            ]
+        },
+        "exclusive_group": ""
+    },
+    "Zhonya's Hourglass": {
+        "tags": ["Ap", "Assassin"],
+        "cost": 3250,
+        "stats": {
+            "ability_power": {
+                "flat": 105,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 50,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Time Stop",
+            "effects": [
+                {
+                    "type": "stasis",
+                    "duration": 2.5
+                }
+            ]
+        },
+        "exclusive_group": ""
+    },
+    "Guardian Angel": {
+        "tags": ["Ad", "Assassin", "Marksman"],
+        "cost": 3200,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 45,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Rebirth",
+            "effects": {
+                "type": "stasis",
+                "duration": 4
+            },
+            "condition": "death"
+        },
+        "exclusive_group": ""
+    },
+    "Sterak's Gage": {
+        "tags": ["Tank", "Bruiser", "Ad"],
+        "cost": 3200,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "tenacity": {
+                "percent": 20,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Lifeline",
+            "effects": [
+                {
+                    "type": "shield",
+                    "value": 4.5,
+                    "condition": "below 30% health"
+                }
+            ]
+        },
+        "exclusive_group": ""
+    },
+    "Mercurial Scimitar": {
+        "tags": ["Ad", "Marksman", "Lifesteal"],
+        "cost": 3200,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "life_steal": {
+                "percent": 10,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Quicksilver",
+            "effects": {
+                "type": "remove_cc",
+                "condition": "cc'd"
+            }
+        },
+        "exclusive_group": ""
+    },
+    "Blade of The Ruined King": {
+        "tags": ["Ad", "Marksman", "Lifesteal"],
+        "cost": 3200,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 25,
+                "type": "percent"
+            },
+            "life_steal": {
+                "percent": 10,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Mist's Edge",
+            "effects": [
+                    {
+                    "type": "on_hit",
+                    "value": {
+                        "percent": 8,
+                        "type": "percent"
+                    }
+                }   
+            ]
+        },
+        "passive2": {
+            "name": "Clawing Shadows",
+            "effects": [
+                { 
+                    "type": "slow",
+                    "value": {
+                        "percent": 25,
+                        "type": "percent",
+                        "duration": 2,
+                        "condition": "3 hits"
+                    }
+                }
+            ]
+        },
+        "exclusive_group": ""
+    },
+    "Shadowflame": {
+        "tags": ["Ap", "Magic Pen"],
+        "cost": 3200,
+        "stats": {
+            "ability_power": {
+                "flat": 110,
+                "type": "bonus"
+            },
+            "magic_pen": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Cinderbloom",
+            "description": "Magic and true damage critically strikes enemies below 40% health, dealing 20% increased damage."
+        }
+    },
+    "Jak'Sho The Protean": {
+        "tags": ["Tank"],
+        "cost": 3200,
+        "stats": {
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 45,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Voidborn Resilience",
+            "description": "After 5 seconds of champion combat, increase your bonus Armor and Magic Resists by 30% until end of combat."
+        },
+        "exclusive_group": ""
+    },
+    "Profane Hydra": {
+        "tags": ["Ad", "Split Push", "Assassin", "Ability Haste"],
+        "cost": 3200,
+        "stats": {
+            "attack_damage": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "letahlity": {
+                "flat": 18,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Herectical Cleave",
+            "description": "Deal physical damage around you"
+        },
+        "exclusive_group": "Tiamat"
+    },
+    "Liandry's Torment": {
+        "tags": ["Ap", "Bruiser", "Tank"],
+        "cost": 3000,
+        "stats": {
+            "ability_power": {
+                "flat": 70,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 300,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Torment / Suffering",
+            "description": "Damaging Abilities burn enemies for 2% max health magic damage per 3 seconds. For each second in combat with enemy champions deal 2% bonus damage up to 6%."
+        }
+    },
+    "Lord Dominik's Regards": {
+        "tags": ["Ad", "Marksman", "Assassin"],
+        "cost": 3100,
+        "stats": {
+            "attack_damage": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "armor_penetration": {
+                "percent": 40,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        }
+    },
+    "Warmog's Armor": {
+        "tags": ["Tank"],
+        "cost": 3100,
+        "stats": {
+            "health": {
+                "flat": 1000,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 100,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Warmog's Heart/Vitality",
+            "description": "If you have 2000 bonus health and have not taken damage within 8 seconds restore health per second. Gain bonus health equal to 12% of your item health."
+        }
+    },
+    "Maw of Malmortious": {
+        "tags": ["Assassin", "Ad", "Bruiser"],
+        "cost": 3100,
+        "stats": {
+            "attack_damage": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "percent"
+            },
+            "magic_resist": {
+                "flat": 40,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Lifeline",
+            "description": "Taking magic damage that would reduce your health below 30% grants a magic damage shield for 3 seconds and 10% omnivamp until end of combat."
+        }
+    },
+    "Spear of Shojin": {
+        "tags": ["Ad", "Bruiser", "Ability Haste"],
+        "cost": 3100,
+        "stats": {
+            "attack_damage": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 450,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Focused Will / Dragon Force",
+            "description": "Dealing damage with abilities increases your champion's ability and passive damage by 3% for 6 seconds stacking 4 times."
+        }
+    },
+    "Riftmaker": {
+        "tags": ["Bruiser", "Ap", "Lifesteal"],
+        "cost": 3100,
+        "stats": {
+            "ability_power": {
+                "flat": 70,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Void Corruption / Void Infusion",
+            "description": "For each second in combat with enemy champions, deal 2% bonus damage, up to 8%. At maximum strength gain imnivamp. Gain 2% of you bonus health as AP"
+        }
+    },
+    "Sundered Sky": {
+        "tags": ["Ad", "Bruiser", "Assassin"],
+        "cost": 3100,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Lightshield Strike",
+            "description": "Your first attack against a champion critically strikes and restores health."
+        }
+    },
+    "Kraken Slayer": {
+        "tags": ["Ad", "Marksman"],
+        "cost": 3100,
+        "stats": {
+            "attack_damage": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 40,
+                "type": "percent"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Bring It Down",
+            "description": "Every third attack deals bonus physical damaage on-hit, increased based on their missing health."
+        }
+    },
+    "Yun Tal Wildarrows": {
+        "tags": ["Ad", "Marksman", "Assassin"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 35,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            }            
+        },
+        "passive": {
+            "name": "Practice Makes Lethal / Flurry",
+            "description": "On attack gain crit strike chance permanently up to 25%. On attacking an enemy champion, gain 30% attack speed for 6 seconds(30 second cooldown). Attacks reduce this cooldown by 1 second increased to 2 seconds for Crit Strikes"
+        }
+    },
+    "Black Cleaver": {
+
+    }
 }
