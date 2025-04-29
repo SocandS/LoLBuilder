@@ -1,0 +1,89 @@
+{
+  "Trinity Force": {
+    "cost": 3333,
+    "stats": {
+      "attack_damage": 30,
+      "attack_speed": 30,
+      "health": 300
+    },
+    "passive": "Threefold Strike"
+  },
+  "Titanic Hydra": {
+    "cost": 3300,
+    "stats": {
+      "attack_damage": 40,
+      "health": 500
+    },
+    "passive": "Cleave"
+  },
+  "Blade of the Ruined King": {
+    "cost": 3300,
+    "stats": {
+      "attack_damage": 40,
+      "attack_speed": 25,
+      "lifesteal": 8
+    },
+    "passive": "Mist's Edge"
+  },
+  "Riftmaker": {
+    "cost": 3000,
+    "stats": {
+      "ability_power": 70,
+      "health": 300,
+      "omnivamp": 10
+    },
+    "passive": "Void Corruption"
+  },
+  "Black Cleaver": {
+    "cost": 3100,
+    "stats": {
+      "attack_damage": 55,
+      "health": 400,
+      "ability_haste": 20
+    },
+    "passive": "Carve"
+  },
+  "Death's Dance": {
+    "cost": 3300,
+    "stats": {
+      "attack_damage": 55,
+      "armor": 45,
+      "ability_haste": 15
+    },
+    "passive": "Ignore Pain"
+  },
+  "Liandry's Torment": {
+    "cost": 3000,
+    "stats": {
+      "ability_power": 80,
+      "health": 600
+    },
+    "passive": "Torment"
+  },
+  "Sunfire Aegis": {
+    "cost": 3200,
+    "stats": {
+      "health": 500,
+      "armor": 50,
+      "magic_resist": 50
+    },
+    "passive": "Immolate"
+  },
+  "Jak'Sho, The Protean": {
+    "cost": 3200,
+    "stats": {
+      "health": 400,
+      "armor": 40,
+      "magic_resist": 40
+    },
+    "passive": "Voidborn Resilience"
+  },
+  "Zhonya's Hourglass": {
+    "cost": 3000,
+    "stats": {
+      "ability_power": 120,
+      "armor": 50
+    },
+    "active": "Stasis"
+  }
+}

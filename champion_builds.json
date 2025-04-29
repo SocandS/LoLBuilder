@@ -1,0 +1,69 @@
+{
+    "Udyr": {
+        "Top": {
+            "Tank": {
+                "items": [
+                    "Liandry's Torment",
+                    "Unending Despair",
+                    "Trinity Force"
+                ],
+                "runes": [
+                    "Lethal Tempo",
+                    "Absorb Life",
+                    "Haste",
+                    "Last Stand",
+                    "Blah",
+                    "Blah",
+                    "Blah",
+                    "Blah"
+                ],
+                "skills": [
+                    "R",
+                    "W",
+                    "E",
+                    "R",
+                    "Q",
+                    "R",
+                    "W",
+                    "R",
+                    "W"
+                ],
+                "summoner_spells": [
+                    "Teleport",
+                    "Flash"
+                ]
+            },
+            "Ad": {
+                "items": [
+                    "Trinity Force",
+                    "Titanic Hydra",
+                    "Blade of the Ruined King",
+                    "Black Cleaver",
+                    "Death's Dance"
+                ],
+                "runes": [
+                    "Rune 1",
+                    "Rune 2",
+                    "Rune 3",
+                    "Rune 4"
+                ],
+                "skills": [
+                    "R",
+                    "W",
+                    "E",
+                    "Q",
+                    "R",
+                    "Q",
+                    "Q",
+                    "Q",
+                    "W",
+                    "Q"
+                ],
+                "summoner_spells": [
+                    "Teleport",
+                    "Flash"
+                ]
+            }
+        }
+    }
+}
