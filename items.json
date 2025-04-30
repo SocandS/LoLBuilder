@@ -1,7 +1,7 @@
 {
     "Trinity Force": {
         "cost": 3333,
-        "tags": ["Bruiser", "Ad", "Split Push", "Move Speed", "Ability Haste"],
+        "tags": ["Bruiser", "Ad", "Split Push", "Move Speed", "Ability Haste", "Attack Speed"],
         "stats": {
             "attack_damage": {
                 "flat": 36,
@@ -116,7 +116,7 @@
         "exclusive_group": ""
     },
     "Mortal Reminder": {
-        "tags": ["Ad", "Assassin", "Grevious Wounds"],
+        "tags": ["Ad", "Assassin", "Grevious Wounds", "Armor Pen"],
         "cost": 3300,
         "stats": {
             "attack_damage": {
@@ -176,7 +176,7 @@
         "exclusive_group": "Grievous Wounds"
     },
     "Morellonomicon": {
-        "tags": ["Grevious Wounds", "Bruiser", "Ap"],
+        "tags": ["Grevious Wounds", "Bruiser", "Ap", "Ability Haste"],
         "cost": 2950,
         "stats": {
             "ability_power": {
@@ -284,7 +284,7 @@
         "exclusive_group": ""
     },
     "Stridebreaker": {
-        "tags": ["Split Push", "Ad", "Bruiser"],        
+        "tags": ["Split Push", "Ad", "Bruiser", "Attack Speed"],        
         "cost": 3300,
         "stats": {
             "attack_damage": {
@@ -634,7 +634,7 @@
         "exclusive_group": ""
     },
     "Sterak's Gage": {
-        "tags": ["Tank", "Bruiser", "Ad"],
+        "tags": ["Tank", "Bruiser", "Ad", "Tenacity"],
         "cost": 3200,
         "stats": {
             "health": {
@@ -685,7 +685,7 @@
         "exclusive_group": ""
     },
     "Blade of The Ruined King": {
-        "tags": ["Ad", "Marksman", "Lifesteal"],
+        "tags": ["Ad", "Marksman", "Lifesteal", "Attack Speed"],
         "cost": 3200,
         "stats": {
             "attack_damage": {
@@ -778,7 +778,7 @@
                 "flat": 60,
                 "type": "bonus"
             },
-            "letahlity": {
+            "lethality": {
                 "flat": 18,
                 "type": "bonus"
             },
@@ -809,10 +809,11 @@
         "passive": {
             "name": "Torment / Suffering",
             "description": "Damaging Abilities burn enemies for 2% max health magic damage per 3 seconds. For each second in combat with enemy champions deal 2% bonus damage up to 6%."
-        }
+        },
+        "exclusive_group": ""
     },
     "Lord Dominik's Regards": {
-        "tags": ["Ad", "Marksman", "Assassin"],
+        "tags": ["Ad", "Marksman", "Assassin", "Crit", "Armor Pen"],
         "cost": 3100,
         "stats": {
             "attack_damage": {
@@ -827,7 +828,8 @@
                 "flat": 25,
                 "type": "bonus"
             }
-        }
+        },
+        "exclusive_group": ""
     },
     "Warmog's Armor": {
         "tags": ["Tank"],
@@ -845,10 +847,11 @@
         "passive": {
             "name": "Warmog's Heart/Vitality",
             "description": "If you have 2000 bonus health and have not taken damage within 8 seconds restore health per second. Gain bonus health equal to 12% of your item health."
-        }
+        },
+        "exclusive_group": ""
     },
     "Maw of Malmortious": {
-        "tags": ["Assassin", "Ad", "Bruiser"],
+        "tags": ["Assassin", "Ad", "Bruiser", "Ability Haste"],
         "cost": 3100,
         "stats": {
             "attack_damage": {
@@ -867,7 +870,8 @@
         "passive": {
             "name": "Lifeline",
             "description": "Taking magic damage that would reduce your health below 30% grants a magic damage shield for 3 seconds and 10% omnivamp until end of combat."
-        }
+        },
+        "exclusive_group": ""
     },
     "Spear of Shojin": {
         "tags": ["Ad", "Bruiser", "Ability Haste"],
@@ -889,10 +893,11 @@
         "passive": {
             "name": "Focused Will / Dragon Force",
             "description": "Dealing damage with abilities increases your champion's ability and passive damage by 3% for 6 seconds stacking 4 times."
-        }
+        },
+        "exclusive_group": ""
     },
     "Riftmaker": {
-        "tags": ["Bruiser", "Ap", "Lifesteal"],
+        "tags": ["Bruiser", "Ap", "Lifesteal", "Ability Haste"],
         "cost": 3100,
         "stats": {
             "ability_power": {
@@ -911,10 +916,11 @@
         "passive": {
             "name": "Void Corruption / Void Infusion",
             "description": "For each second in combat with enemy champions, deal 2% bonus damage, up to 8%. At maximum strength gain imnivamp. Gain 2% of you bonus health as AP"
-        }
+        },
+        "exclusive_group": ""
     },
     "Sundered Sky": {
-        "tags": ["Ad", "Bruiser", "Assassin"],
+        "tags": ["Ad", "Bruiser", "Assassin", "Ability Haste"],
         "cost": 3100,
         "stats": {
             "attack_damage": {
@@ -933,10 +939,11 @@
         "passive": {
             "name": "Lightshield Strike",
             "description": "Your first attack against a champion critically strikes and restores health."
-        }
+        },
+        "exclusive_group": ""
     },
     "Kraken Slayer": {
-        "tags": ["Ad", "Marksman"],
+        "tags": ["Ad", "Marksman", "Attack Speed"],
         "cost": 3100,
         "stats": {
             "attack_damage": {
@@ -955,10 +962,11 @@
         "passive": {
             "name": "Bring It Down",
             "description": "Every third attack deals bonus physical damaage on-hit, increased based on their missing health."
-        }
+        },
+        "exclusive_group": ""
     },
     "Yun Tal Wildarrows": {
-        "tags": ["Ad", "Marksman", "Assassin"],
+        "tags": ["Ad", "Marksman", "Assassin", "Attack Speed", "Crit"],
         "cost": 3000,
         "stats": {
             "attack_damage": {
@@ -977,9 +985,1649 @@
         "passive": {
             "name": "Practice Makes Lethal / Flurry",
             "description": "On attack gain crit strike chance permanently up to 25%. On attacking an enemy champion, gain 30% attack speed for 6 seconds(30 second cooldown). Attacks reduce this cooldown by 1 second increased to 2 seconds for Crit Strikes"
-        }
+        },
+        "exclusive_group": ""
     },
     "Black Cleaver": {
-
+        "tags": ["Ad", "Bruiser", "Split Push"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            },
+            "armor_reduction": {
+                "percent": {
+                    "min": 6,
+                    "max": 30,
+                    "condition": "On hit 6% multiplied up to 30"
+                }
+            }
+        },
+        "passive": {
+            "name": "Carve",
+            "description": "Dealing physical damage to an enemy champion applies a stack of carve for 6 seconds, stacking up to 5 times. Each stack inflicts 6% armor reduction up to 30%. Dealing physical damage grants you 20 bonus movement speed for 2 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Echoes of Helia": {
+        "tags": ["Support", "Ap", "Ability Haste"],
+        "cost": 2200,
+        "stats": {
+            "ability_power": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 200,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            },
+            "mana_regen": {
+                "percent": 125,
+                "type": "base"
+            }
+        },
+        "passive": {
+            "name": "Soul Siphon",
+            "description": "Damaging an enemy champion with a basic attack or ability damage grants a soul shard, up to 2. Healing or shielding an allied champion consumes all soul shards to heal them for 65 per shard and deal 50 magic damage per shard to nearst enemy champion within 1100 units of ally."
+        },
+        "exclusive_group": ""
+    },
+    "Ardent Censer": {
+        "tags": ["Support", "Move Speed", "Ap"],
+        "cost": 2200,
+        "stats": {
+            "ability_power": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "heal_and_shield_power": {
+                "percent": 10,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 125,
+                "type": "base"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Sanctify",
+            "description": "Healing or shielding allied champions enhances you and them for 6 seconds granting 25% attack speed and 20 bonus magic damage on-hit on basic attacks."
+        },
+        "exclusive_group": ""
+    },
+    "Locket of the Iron Solari": {
+        "tags": ["Support", "Tank", "Ability Haste"],
+        "cost": 2200,
+        "stats": {
+            "health": {
+                "flat": 200,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Limitations",
+            "description": "Devotions shield strength is reduced by 75% if the target was affected by another devortion in the last 20 seconds."
+        },
+        "active": {
+            "name": "Devotion",
+            "description": "Grants you and allied champions within 850 units a shield for 200-360 based on targets level that decays over 2.5 seconds. 90 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Mejai's Soulstealer": {
+        "tags": ["Ap", "Assassin"],
+        "cost": 1500,
+        "stats": {
+            "ability_power": {
+                "flat": 20,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 100,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Glory",
+            "description": "Gain 4 stacks for each champion kill 2 for each assist up to 25 stacks. Each stack you gain 5 AP up to 125 max. If you have at least 10 stacks gain 10% move speed. Lose 10 stacks on death."
+        },
+        "exclusive_group": ""
+    },
+    "Shurelya's Battlesong": {
+        "tags": ["Ability Haste", "Support", "Tank", "Move Speed"],
+        "cost": 2200,
+        "stats": {
+            "ability_power": {
+                "flat": 50,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 125,
+                "type": "percent"
+            }
+        },
+        "active": {
+            "name": "Inspiring Speech",
+            "description": "Grants you and all allies within 1000 units 30% bonus movement speed for 4 seconds. 75 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Zeke's Convergence": {
+        "tags": ["Tank", "Support", "Ability Haste"],
+        "cost": 2200,
+        "stats": {
+            "health": {
+                "flat": 300,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Frostfire Tempest",
+            "description": "Upon casting your ultimate, you summon a storm of flame and ice around you for 5 seconds, dealing 7.5 magic damage every .25 seconds 150 total over the duration to enemies within 350 units and slowing them by 30%. 45 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Imperial Mandate": {
+        "tags": ["Support", "Ability Haste", "Ap"],
+        "cost": 2250,
+        "stats": {
+            "ability_power": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            },
+            "mana_regen": {
+                "percent": 125,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Coordinated Fire",
+            "description": "Abilities that slow or immobilize enemy champions mark them for 5 seconds. Allied champions that damage marked enemies consume the mark to deal 10% of targets current health as bonus magic damage. 9 second cooldown per target, starts upon mark application."
+        },
+        "exclusive_group": ""
+    },
+    "Staff of Flowing Water": {
+        "tags": ["Support", "Ap", "Ability Haste"],
+        "cost": 2250,
+        "stats": {
+            "ability_power": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "heal_and_shield_power": {
+                "percent": 10,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 125,
+                "type": "percent"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Rapids",
+            "description": "Healing or shielding allied champions grants you and them 45 ability power for 6 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Redemption": {
+        "tags": ["Support", "Ability Haste"],
+        "cost": 2300,
+        "stats": {
+            "health": {
+                "flat": 200,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "mana_regen": {
+                "percent": 100,
+                "type": "percent"
+            },
+            "heal_and_shield_power": {
+                "percent": 10,
+                "type": "percent"
+            }
+        },
+        "active": {
+            "Intervention": "Call upon a 550-radius beam of light to strike upon the target location after 2.5 seconds, granting sight of the area for the duration. Allies within the area are healed for 200-400(based on level) while enemy champions within take 10% max health as true damage. Can be used while dead. 90 second cooldown, 5500 range."
+        },
+        "exclusive_group": ""
+        
+    },
+    "Knight's Vow": {
+        "tags": ["Support", "Ability Haste", "Tank"],
+        "cost": 2300,
+        "stats": {
+            "health": {
+                "flat": 200,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 100,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Sacrifice",
+            "description": "While your worthy ally is tethered to you and you are above 30% max health, redirect 12% of the pre-mitigation physican and magic damage they take to you as the respective damage type. Additionally, heal you for 10% of post-mitigation damage dealt by your worthy ally."
+        },
+        "active": {
+            "name": "Pledge",
+            "description": "Designate the target allied champion as being worthy, forming a tether between you and them. Champions can only be designated as worthy by one Knight's Vow at a time. 60 second cooldown 1250 range."
+        },
+        "exclusive_group": ""
+    },
+    "Mikael's Blessing": {
+        "tags": ["Support", "Tank", "Ability Haste"],
+        "cost": 2300,
+        "stats": {
+            "health": {
+                "flat": 250,
+                "type": "bonus"
+            },
+            "mana_regen": {
+                "percent": 100,
+                "type": "base"
+            },
+            "heal_and_shield_power": {
+                "percent": 12,
+                "type": "percent"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Purify",
+            "description": "Remove all crowd control debuffs from yourself or the target allied champion and heal the target for 100-250(based on level) 120 second cooldown 650 range."
+        },
+        "exclusive_group": ""
+    },
+    "Vigilant Wardstong": {
+        "tags": ["Support", "Ability Haste", "Tank"],
+        "cost": 2300,
+        "stats": {
+            "health": {
+                "flat": 250,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 30,
+                "type": "bonus"
+            }
+        },
+        "active": {
+            "name": "Unique",
+            "description": "Consumes a charge of Arcane Cache to place a visible control ward at the location (600 range)."
+        },
+        "passive": {
+            "name": "Arcane Cache / Behold",
+            "description": "Purchasing a control ward stocks it as a charge, up to 3. Increase your stealth ward, totem ward, and control ward caps by 1."
+        },
+        "exclusive_group": ""
+    },
+    "Trailblazer": {
+        "tags": ["Support", "Tank", "Move Speed"],
+        "cost": 2400,
+        "stats": {
+            "health": {
+                "flat": 250,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Lead the Way",
+            "description": "While moving, generate 7 stacks of momentum every .25 seconds granting up to 20 bonus movement speed at 100 stacks after 3.75 seconds of moving. At max stacks you leave behind a path briefly taht grants 15% of your total movement speed as bonus movement speed to allied champions within. Basic attacks consume all stacks. If you are melee and at maximum stacks, your next basic attack slows the target by 50% for 1 second."
+        },
+        "exclusive_group": ""
+    },
+    "Winter's Approach": {
+        "aliases": ["Fimbulwinter"],
+        "tags": ["Tank", "Split Push", "Ability Haste", "Mana"],
+        "cost": 2400,
+        "stats": {
+            "health": {
+                "flat": 550,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 500,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Awe / Manaflow",
+            "description": "Grants health equal to 15% bonus mana. Manaflow grants a charge every 8 seconds up to 4 charges. Consumes a charge on hit and whatever affecting an enemy or ally with an ability to grant 3 bonus mana, increase to 6 for champion targets, up to a max of 360 bonus mana. Transforms into Fimbulwinter at 360 mana."
+        },
+        "exclusive_group": "Tear"
+    },
+    "Fimbulwinter": {
+        "aliases": ["Winter's Approach"],
+        "tags": ["Tank", "Split Push", "Ability Haste", "Mana"],
+        "cost": 2400,
+        "stats": {
+            "health": {
+                "flat": 550,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 500,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Awe / Everlasting",
+            "description": "Grants health equal to 15% bonus mana. Immobilizing or slowing if you are melee an enemy champion grants a 100+4.5% current mana shield for 3 seconds (8 second cooldown). The shield's strength is increased by 80% to 100 (+8.1% of current mana) if there is more than one neemy champion within 1200 units."
+        },
+        "exclusive_group": "Tear"
+    },
+    "Thornmail": {
+        "tags": ["Tank", "Bruiser", "Grevious Wounds"],
+        "cost": 2450,
+        "stats": {
+            "health": {
+                "flat": 150,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 75,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Thorns",
+            "description": "When struck by a basic attack on-hit deal 20 (+ 10% bonus armor) magic damage to the attacker and, if they are a champion, inflict them with Grievous Wounds for 3 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Frozen Heart": {
+        "tags": ["Tank", "Mana", "Ability Haste", "Bruiser"],
+        "cost": 2500,
+        "stats": {
+            "armor": {
+                "flat": 75,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Winter's Caress",
+            "description": "Cripples the attack speed of enemy champions within 700 units by 20%"
+        },
+        "exclusive_group": ""
+    },
+    "Umbral Glaive": {
+        "tags": ["Support", "Assassin", "Ad", "Lethality"],
+        "cost": 2500,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Blackout",
+            "description": "When near an enemy stealthed ward or trap, gain blackout for 8 seconds (90 second cooldown; range 400). You disable surrounding stealthed wards, as well as expose and reveal nerby stealthed wards and traps while blackout is active. Your basic attacks deal 2 melee 1 ranged extra damage to wards."
+        },
+        "exclusive_group": ""
+    },
+    "Dawncore": {
+        "tags": ["Ap", "Support"],
+        "cost": 2500,
+        "stats": {
+            "ability_power": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "heal_and_shield_power": {
+                "percent": 16,
+                "type": "percent"
+            },
+            "mana_regen": {
+                "percent": 100,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "First Light",
+            "description": "Gain 2% heal and shield power and 10 ability power for every additional 100% base mana regen."
+        },
+        "exclusive_group": ""
+    },
+    "Serpent's Fang": {
+        "tags": ["Assassin", "Ad", "Split Push", "Lethality"],
+        "cost": 2500,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Shield Reaver",
+            "description": "Dealing damage to an enemy champion inflicts them with venom for 3 seconds, reducing any shield they gain within the duration by 50% (melee) or 35% (ranged) and if the target was not already afflicted by the venom, reducing all of their active shields by the same amount."
+        },
+        "exclusive_group": ""
+    },
+    "Rylai's Crystal Scepter": {
+        "tags": ["Ap", "Tank", "Bruiser", "Slows"],
+        "cost": 2600,
+        "stats": {
+            "ability_power": {
+                "flat": 65,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Rimefrost",
+            "description": "Dealing ability damage slows affected units by 30% for 1 second."
+        },
+        "exclusive_group": ""
+    },
+    "Hextech Rocketbelt": {
+        "tags": ["Ap", "Assassin", "Ability Haste"],
+        "cost": 2600,
+        "stats": {
+            "ability_power": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "active": {
+            "name": "Supersonic",
+            "description": "Dash 125 to 275 units in target direction, though not through terrain, unleashing an arc of 7 rockets in cone dealing 100 (+ 10% Ap) magic damage to enemies hit. 40 second cooldown, resets basic attack timer."
+        },
+        "exclusive_group": ""
+    },
+    "Rod of Ages": {
+        "tags": ["Ap", "Tank", "Bruiser", "Mana"],
+        "cost": 2600,
+        "stats": {
+            "ability_power": {
+                "flat": 50,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 400,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Timeless", 
+            "description": "This item gains 10 bonus health 20 bonus mana and 3 Ap every minute up to 10 times for a max of 100 health, 200 mana, 30 Ap. Upon reaching max stacks, gain a level that preserves your current experience (level 18 is still the cap). Eternity - Restore mana equal to 10% of pre-mitigation damage taken from champions, and heal for than amount equal to 25% of mana spent, up to 20 per cast. Toggled abilities can only heal for up to 20 per second."
+        },
+        "exclusive_group": ""
+    },
+    "Phantom Dancer": {
+        "tags": ["Ad", "Marksman", "Crit", "Move Speed", "Attack Speed"],
+        "cost": 2650,
+        "stats": {
+            "attack_speed": {
+                "percent": 60,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 8,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Spectral Waltz",
+            "description": "Become permanently ghosted."
+        },
+        "exclusive_group": ""
+    },
+    "Runaan's Hurricane": {
+        "tags": ["Attack Speed", "Crit", "Move Speed", "Ad", "Marksman"],
+        "cost": 2650,
+        "stats": {
+            "attack_speed": {
+                "percent": 40,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Wind's Fury",
+            "description": "Basic attacks on attack fire additional bolts at up to 2 enemies in front of you, each dealing 55% AD physical damage. Bolts apply on-hit effects and are affected by crit strike modifiers. Bolts will target closest enemies to you that are not the main target."
+        },
+        "exclusive_group": ""
+    },
+    "Rapid Firecannon": {
+        "tags": ["Marksman", "Ad", "Crit", "Attack Speed"],
+        "cost": 2650,
+        "stats": {
+            "attack_speed": {
+                "percent": 35,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Energized/ Sharpshooter",
+            "description": "Moving and basic attacking generates energized stacks up to 100. At 100 stacks your next basic attack deals 40 bonus magic damage on-hit. Energized attacks gain 35% bonus range, capped at 150."
+        },
+        "exclusive_group": ""
+    },
+    "Navori Flickerblade": {
+        "tags": ["Marksman", "Ad", "Attack Speed", "Crit", "Move Speed"],
+        "cost": 2650,
+        "stats": {
+            "attack_speed": {
+                "percent": 40,
+                "type": "percent"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Transcendence",
+            "description": "Basic attacks on-attack reduce remaining cooldowns of basic abilities by 15%"
+        },
+        "exclusive_group": ""
+    },
+    "Abyssal Mask": {
+        "tags": ["Ap", "Mage", "Tank", "Bruiser", "Support", "Ability Haste"],
+        "cost": 2650,
+        "stats": {
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Unmake",
+            "description": "Enemy champions within 700 units of you become cursed, causing them to receive 12% increased magic damage from all sources."
+        },
+        "exclusive_group": ""
+    },
+    "Spirit Visage": {
+        "tags": ["Tank", "Bruiser"],
+        "cost": 2700,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 50,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 100,
+                "type": "base"
+            }
+        },
+        "passive": {
+            "name": "Boundless Vitality",
+            "description": "Increase all healing and shielding received as well as health regeneration by 25%."
+        },
+        "exclusive_group": ""
+    },
+    "Sunfire Aegis": {
+        "tags": ["Tank", "Bruiser", "Ability Haste"],
+        "cost": 2700,
+        "stats": {
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Immolate",
+            "description": "Taking or dealing damage actifates passive for 3 seconds. Deal 20 (+ 1% bonus health) magic damage every second to enemies within 325 (+ 100% bonus size) units, with the damage being increased by 50% against minions and monsters. This executes minions that would be killed by one more tick of damage."
+        },
+        "exclusive_group": ""
+    },
+    "Statik Shiv": {
+        "tags": ["Marksman", "Ad", "Attack Speed", "Move Speed"],
+        "cost": 2700,
+        "stats": {
+            "attack_damage": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 30,
+                "type": "percent"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Elctrospark",
+            "description": "Your next 3 basic attacks on-hit within 8 seconds of empowered to deal 60 bonus magic damage, increased to 85 against non-champions. This bounces to closest target within 500 units, repeating from the new target to strike up to 5 targets (25 - 10 (based on level) second cooldown, starts after using first empowered attack). Electroshock - Scoring a takedown against an enemy champion within 3 seconds of damaging them resets Electrospark's cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Malignance": {
+        "tags": ["Ap", "Mana", "Ability Haste"],
+        "cost": 2700,
+        "stats": {
+            "ability_power": {
+                "flat": 85,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 600,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Scorn / Hatefog",
+            "description": "Gain 20 ultimate haste. Dealing ability damage to enemy champions with your ultimate creates a 251-550 (based on ultimates damge instance) radius scorched zone beneath them for 3 seconds, applying a curse to enemies within that deals 15 (+ 1.25% ap) magic damage every .25 seconds 180 (+ 15% AP) total magic damage over the duration and reduces their magic resistance by 10 (3 seconds cooldown per target, starts on zone creation)."
+        },
+        "exclusive_group": ""
+    },
+    "Raanduin's Omen": {
+        "tags": ["Tank", "Bruiser"],
+        "cost": 2700,
+        "stats": {
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 75,
+                "type": "bonus"
+            }
+        },
+        "active": {
+            "name": "Humility",
+            "description": "Unleash a shockwave around you that slows nearby enemies for 70% for 2 seconds (90 second cooldown; 500 range)."
+        },
+        "passive": {
+            "name": "Resilience",
+            "description": "Reduce incoming damage from critical strikes by 30%"
+        },
+        "exclusive_group": ""
+    },
+    "Horizon Focus": {
+        "tags": ["Ap", "Mage", "Ability Haste", "Support"],
+        "cost": 2700,
+        "stats": {
+            "ability_power": {
+                "flat": 75,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Hypershot / Focus",
+            "description": "Dealing ability damage to a champion at 600+ units away from the cast position reveals them and increases your damage dealt to them by 10% for 6 seconds. Focus - Upon triggeting Hypershot, grant sight of the area 1400 units around the target for 2 seconds an apply hypershort's effects to enemy champions within the area for 3 seconds (30 second cooldown)."
+        },
+        "exclusive_group": ""
+    },
+    "Opportunity": {
+        "tags": ["Lethality", "Ad", "Assassin", "Move Speed"],
+        "cost": 2700,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 18,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Perperation",
+            "description": "After being out of combat with enemy champions for 8 seconds gain 11(melee) 5(ad) lethality. This bonus remains for 3 seconds after dealing damage to an enemy champion. Extraction - Scoring a takedown against an enemy champion within 3 seconds of damaging them grants you 200 bonus movespeed that decays over 1.5 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Unending Despair": {
+        "tags": ["Tank", "Bruiser", "Ability Haste"],
+        "cost": 2800,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 25,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Anguish",
+            "description": "Every 4 seconds after entering combat with champions, sap all enemy champions around you within 650 units to deal magic damage equal to 3% of your bonus health to them and heal yourself equal to 250% post-mitigation damage dealt."
+        },
+        "exclusive_group": ""
+    },
+    "Blackfire Torch": {
+        "tags": ["Mage", "Ap", "Mana", "Ability Haste"],
+        "cost": 2800,
+        "stats": {
+            "ability_power": {
+                "flat": 80,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 600,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Baleful Blaze",
+            "description": "Dealing ability damage burns enemies causing them tot ake 10 (+ 1% AP) magic damage every .5 seconds over 3 seconds, for a total of 60 (+ 6% AP). Against monsters, the burn deals 10 bonus magic damage per tick, dealing a total of 20 (+ 1% ap) magic damage per tick for up to 120 (+ 6% AP). For each champion, epic monster, large monster afflicted with Baleful Blaze's burn increase your ability power by 4%."
+        },
+        "exclusive_group": ""
+    },
+    "Wit's End": {
+        "tags": ["Attack Speed", "Ad", "Tenacity", "Bruiser"],
+        "cost": 2800,
+        "stats": {
+            "attack_speed": {
+                "percent": 50,
+                "type": "percent"
+            },
+            "magic_resist": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "tenacity": {
+                "percent": 20,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Fray",
+            "description": "Basic attacks deal 45 bonus magic damage on-hit."
+        },
+        "exclusive_group": ""
+    },
+    "Youmuu's Ghostblade": {
+        "tags": ["Ad", "Lethality", "Assassin", "Move Speed"],
+        "cost": 2800,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 18,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "active": {
+            "name": "Wraith Step",
+            "description": "Gain 20% melee 15% ranged movement speed and ghosting for 6 (melee) 4 (ranged) seconds."
+        },
+        "passive": {
+            "name": "Haunt",
+            "description": "Gain 20 melee / 10 ranged movement speed while out-of-combat with enemy champions for 3 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Force of Nature": {
+        "tags": ["Tank", "Move Speed"],
+        "cost": 2800,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Steadfast",
+            "description": "Taking magic damage from champs grants a stack of steadfast for 7 seconds, stacking up to 8 times with the duration refreshing on subsequent magic damage from them and whenever dealing damage to them. Becoming immobilized by an enemy champ grants 2 stacks and also refreshes the duration. Each incoming basic attack, ability per cast instance, or item effect can only grant 1 stack of Steadfast from their damage every 1 second. At max stacks gain 70 bonus magic ressitances and 6% bonus movement speed."
+        },
+        "exclusive_group": ""
+    },
+    "Hollow Radiance": {
+        "tags": ["Tank", "Split Push", "Ability Haste"],
+        "cost": 2800,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 100,
+                "type": "base"
+            }
+        },
+        "passive": {
+            "name": "Immolate",
+            "description": "Taking or dealing damage activates the passive. Deal 15 (+ 1% bonus health) magic damage every second to enemies within 325 (+ 100% bonus size) units, with the damage being increased by 25% against minions and monsters. This executes minions that would be killed by one more tick of damage. Desolate - Killing a non-champion unit causes an eruption around their death location that deals 30 (+ 2% bonus health) magic damage 200% of immolate's damage to enemies within 350 units. Scoring a takedown against an enemy champion within 3 seconds of damaging them causes a larger eruption that deals 60 (+ 4% bonus health) magic damage 400% of immolates damage to enemies within 500 units."
+        },
+        "exclusive_group": ""
+    },
+    "Cryptbloom": {
+        "tags": ["Support", "Ap", "Magic Pen", "Ability Haste", "Mage"],
+        "cost": 2850,
+        "stats": {
+            "ability_power": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "magic_pen": {
+                "percent": 30,
+                "type": "percent"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Life From Death",
+            "description": "Scoring a takedown against an enemy champion while alive and within 3 seconds of damaging them summons a nova that radiates from the location of their death over 1.75 seconds, healing you and allied champions hit for 100 (+ 25% ap) 60 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Luden's Companion": {
+        "tags": ["Ap", "Assassin", "Mana", "Mage", "Ability Haste"],
+        "cost": 2850,
+        "stats": {
+            "ability_power": {
+                "flat": 100,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 600,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Fire",
+            "description": "Gain 6 shot charge stacks to fire. Dealing ability damage consumes all shot charges to deal 75 (+ 5% AP) bonus magic damage to them and for each charge consumed beyond the first an additional enemy within 600 units of them, firing an orb at each secondary target that impacts after .528 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Kaenic Rookern": {
+        "tags": ["Tank", "Bruiser"],
+        "cost": 2900,
+        "stats": {
+            "health": {
+                "flat": 400,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 80,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 100,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Magebane",
+            "description": "After not taking magic damage for 15 seconds gain a shield that absorbs magic damage equal to 15% of max health until destroyed."
+        },
+        "exclusive_group": ""
+    },
+    "Archangel's Staff": {
+        "aliases": ["Seraph's Embrace"],
+        "tags": ["Mage", "Ap", "Ability Haste", "Mana"],
+        "cost": 2900,
+        "stats": {
+            "ability_power": {
+                "flat": 70,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 600,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Manaflow",
+            "description": "Grants a charge every 8 seconds up to 5 charges. Affecting an enemy or ally with an ability consumes a charge to grant 5 bonus mana increased to 10 if they are a champion up to max of 360 mana. Transforms into Seraph's Embrace at 460 mana."
+        },
+        "exclusive_group": "Tear"
+    },
+    "Seraph's Embrace": {
+        "aliases": ["Archangel's Staff"],
+        "tags": ["Mage", "Ap", "Ability Haste", "Mana"],
+        "stats": {
+            "ability_power": {
+                "flat": 70,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 1000,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Awe",
+            "description": "Awe - grants ability power equal to 2% bonus mana. Lifeline - If you would take daamge that would reduce you below 30% hp, you first gain a shield that absorbs 200 (+ 20% current mana) damage for 3 seconds. 90 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Manamune": {
+        "aliases": ["Muramana"],
+        "tags": ["Marksman", "Ad", "Mana", "Ability Haste"],
+        "cost": 2900,
+        "stats": {
+            "attack_damage": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 500,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Awe",
+            "description": "Grants bonus attack damage equal to 2% max mana. Attacking gains +3 bonus mana to maximum of 360."
+        },
+        "exclusive_group": "Tear"
+    },
+    "Muramana": {
+        "aliases": ["Manamune"],
+        "tags": ["Marksman", "Ad", "Mana", "Ability Haste"],
+        "cost": 2900,
+        "stats": {
+            "attack_damage": {
+                "flat": 35,
+                "type": "bonus"
+            },
+            "mana": {
+                "flat": 860,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Awe / Shock",
+            "description": "Grants bonus attack damage equal to 2% max mana. Shock - basic attacks on-hit against champs deal 1.2% max mana bonus physical damage. Dealing ability damage to champions deals (4% melee / 3% ranged) max mana bonus physical damage. Can only be triggered on same target once every 6.5 seconds."
+        },
+        "exclusive_group": "Tear"
+    },
+    "Essence Reaver": {
+        "tags": ["Assassin", "Ad", "Marksman", "Crit", "Ability Haste"],
+        "cost": 2900,
+        "stats": {
+            "attack_damage": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Essence Drain",
+            "description": "Basic attacks on-hit restore 15(+ 10% bonus AD) mana."
+        },
+        "exclusive_group": ""
+    },
+    "Dead Man's Plate": {
+        "tags": ["Bruiser", "Tank", "Move Speed"],
+        "cost": 2900,
+        "stats": {
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "armor": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Shipwrecker",
+            "description": "While moving generates 7 stacks momentum every .25 seconds granting up to 20 bonus move speed at 100 stacks after 3.75 seconds of moving. Basic attacks consume all stacks to deal 0-40 (based on momentum)(+ 0% - 100%(based on momentum)base AD) bonus physical damage on-hit."
+        },
+        "exclusive_group": ""
+    },
+    "Stormsurge": {
+        "tags": ["Mage", "Move Speed", "Ap", "Assassin", "Magic Pen"],
+        "cost": 2900,
+        "stats": {
+            "ability_power": {
+                "flat": 90,
+                "type": "bonus"
+            },
+            "magic_pen": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Stormraider",
+            "description": "Gain 25% movement speed when taking 25% of their hp in 2.5 seconds. Squall - After 2 seconds of having applied stormraider strike the target with lightning dealing 125 (+ 10% AP) magic damage to them. If the target dies before being struck, they emit an electric field instantly that shocks all enemy champions near them, dealing them the same damage and granting you 30 gold."
+        },
+        "exclusive_group": ""
+    },
+    "Eclipse": {
+        "tags": ["Ad", "Ability Haste", "Assassin"],
+        "cost": 2900,
+        "stats": {
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "attack_damage": {
+                "flat": 60,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Ever Rising Moon",
+            "description": "Damaging basic attacks, abilities, item effects, and summoner spells, as well as the application of crowd control and damage over time effects, generate stacks against enemy champions, up to one per attack or cast per champion. Applying 2 stacks to a champion within a 2 second period deals bonus physical damage to them equal to 6 (melee) 4% (ranged) to targets maximum health and grants you a shield for 160 (melee) 80(ranged)(+ 40% / 20%) bonus ad for 2 seconds. 6 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Bloodletter's Curse": {
+        "tags": ["Ap", "Mage", "Ability Haste", "Magic Pen", "Support"],
+        "cost": 2900,
+        "stats": {
+            "ability_power": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Vile Decay",
+            "description": "Dealing magic damage to an enemy champion with a champion ability applies a stack to them for 6 seconds, stacking up to 6 times and up to once per basic attack or ability cast per cast instance every .3 seconds. Each stack inflickts 5% magic resistance reduction, up to 30% at 6 stacks."
+        },
+        "exclusive_group": ""
+    },
+    "Experimental Hexplate": {
+        "tags": ["Ad", "Assassin", "Attack Speed"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 20,
+                "type": "percent"
+            },
+            "health": {
+                "flat": 450,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Hexcharged / Overdrive",
+            "description": "Gain 30 ultimate haste / Upon casting ultimate ability enger overdrive to gain 30% bonus attack speed and 15% move speed for 8 seconds. 30 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Heartsteel": {
+        "tags": ["Tank", "Bruiser"],
+        "cost": 3000,
+        "stats": {
+            "health": {
+                "flat": 900,
+                "type": "bonus"
+            },
+            "health_regen": {
+                "percent": 100,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Colossal Consumption",
+            "description": "While within 700 units of an enemy champion, generate a stack on them each second, stacking up to 3 times. Your next basic attack against a target with 3 stacks is empowered to consume them all to deal 70 (+ 6% max hp) bonus physical damage on-hit and grant you permanent bonus health equal to 8% of that amount 5.6 (+ .48% max health) 30 second cooldown per target. 0%-30% based on max health increased size."
+        },
+        "exclusive_group": ""
+    },
+    "Bainshee's Veil": {
+        "tags": ["Ap", "Mage", "Bruiser"],
+        "cost": 3000,
+        "stats": {
+            "ability_power": {
+                "flat": 105,
+                "type": "bonus"
+            },
+            "magic_resist": {
+                "flat": 40,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Annul",
+            "description": "Spell shield that blocks the next hostile ability. 40 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Nashor's Tooth": {
+        "tags": ["Attack Speed", "Marksman", "On Hit", "Ability Haste", "Ap"],
+        "cost": 3000,
+        "stats": {
+            "ability_power": {
+                "flat": 80,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 50,
+                "type": "percent"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Icathian Bite",
+            "description": "Basic attacks deal 15 (+ 15% ap) bonus magic damage on hit."
+        },
+        "exclusive_group": ""
+    },
+    "Guinsoo's Rageblade": {
+        "tags": ["Marksman", "Attack Speed", "Ap", "Ad"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 30,
+                "type": "bonus"
+            },
+            "ability_power": {
+                "flat": 30,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 25,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Wrath / Seething",
+            "description": "Wrath - Basic attacks deal 30 bonus magic damage on hit / Seething Strike - basic attacks grant 8% attack speed for 3 seconds stacking 4 times for 32% bonus. At max stacks basic attacks on-attack also grant a phantom stack for 6 seconds up to 2 stacks. At 2 phantom stacks the next basic attack consumes all of those stacks on-attack to trigger a phantom hit that applies on-hit effects to the target after .15 seconds delay. "
+        },
+        "exclusive_group": ""
+    },
+    "Void Staff": {
+        "tags": ["Ap", "Mage", "Magic Pen"],
+        "cost": 3000,
+        "stats": {
+            "ability_power": {
+                "flat": 95,
+                "type": "bonus"
+            },
+            "magic_pen": {
+                "percent": 40,
+                "type": "percent"
+            }
+        },
+        "exclusive_group": ""
+    },
+    "Hullbreaker": {
+        "tags": ["Bruiser", "Ad", "Tank", "Split Push", "Move Speed"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 40,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 500,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Skipper",
+            "description": "Basic attacks on0hit against any enemy grant stacks for 10 seconds, stacking up to 5 times. At max stacks or 4 stacks your next basic attack against a champion, epic monster, or structure consumes all stacks to deal 120% / 84% base ad + 5% / 3.5% max health bonus physical damage, increased to 300% / 210% base ad + 10% / 7% max health against structures. / Boarding party - Allied siege minions and super minions within 1050 units gain 70-130 / 35-65 bonus aremor and bonus magic resists as well as 10% increased size."
+        },
+        "exclusive_group": ""
+    },
+    "Terminus": {
+        "tags": ["Marksman", "Ad", "Attack Speed"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 30,
+                "type": "bonus"
+            },
+            "attack_speed": {
+                "percent": 35,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Shadow / Juxtaposition",
+            "description": "Basic attacks deal 30 bonus magic damage on-hit / Juxtaposition - attacks on-hit against champs alternate between light and dark hits, each one granting a bonus for 5 seconds that stacks up to 3 times. Light hits grant 6/7/8 bonus armor and magic resists while dark hits grant 10% armor and magic pen for a total of 18-24 bonus resists and 30% resistance penetration at max stacks."
+        },
+        "exclusive_group": ""
+    },
+    "Edge of Night": {
+        "tags": ["Lethality", "Ad", "Assassin"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 50,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 250,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Annul",
+            "description": "Grants a spell shield that blocks the next hostile ability. 40 second cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Cosmic Drive": {
+        "tags": ["Ap", "Bruiser", "Ability Haste", "Move Speed"],
+        "cost": 3000,
+        "stats": {
+            "ability_power": {
+                "flat": 70,
+                "type": "bonus"
+            },
+            "health": {
+                "flat": 350,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            },
+            "move_speed": {
+                "percent": 4,
+                "type": "percent"
+            }
+        },
+        "passive": {
+            "name": "Spelldance",
+            "description": "Dealing magic or true damage to an enemy champion grants you 20 bonus move speed for 4 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Immortal Shieldbow": {
+        "tags": ["Assassin", "Ad", "Crit", "Marksman"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Lifeline",
+            "description": "If you would take damage that reduce you below 30% hp you first gain a shield that absorbs 400-700 / 320-560 based on level damage for 3 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "The Collector": {
+        "tags": ["Marksman", "Crit", "Assassin", "Ad", "Lethality"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 50,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 10,
+                "type": "bonus"
+            },
+            "critical_strike_chance": {
+                "flat": 25,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Death",
+            "description": "If you deal post-mitigation damage that would drop champion below 5% of their hp you execute them. Killing a champion grants you an additional 25 gold."
+        },
+        "exclusive_group": ""
+    },
+    "Serylda's Grudge": {
+        "tags": ["Assassin", "Crit", "Ad", "Ability Haste", "Armor Pen"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 45,
+                "type": "bonus"
+            },
+            "armor_penetration": {
+                "percent": 35,
+                "type": "percent"
+            },
+            "ability_haste": {
+                "flat": 15,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Bitter Cold",
+            "description": "Dealing ability damage to an enemy that is at or below 50% slows them by 30% for 1 second."
+        },
+        "exclusive_group": ""
+    },
+    "Axiom Arc": {
+        "tags": ["Assassin", "Ad", "Lethality", "Marksman"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 18,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 20,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Flux",
+            "description": "Scoring a takedown against an enemy champion within 3 seconds of damaging them refunds 15% (+ .15% per 1 lethalty) of your ultimate ability's cooldown."
+        },
+        "exclusive_group": ""
+    },
+    "Hubris": {
+        "tags": ["Ad", "Lethality", "Ability Haste", "Assassin"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 60,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 18,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Eminence",
+            "description": "Scoring a takedown against an enemy champion within 3 seconds of damaging them generates a permanent stack and grants you 15 (+ 2 per stack) bonus attack damage for 90 seconds."
+        },
+        "exclusive_group": ""
+    },
+    "Voltaic Cyclosword": {
+        "tags": ["Assassin", "Ad", "Lethality", "Ability Haste"],
+        "cost": 3000,
+        "stats": {
+            "attack_damage": {
+                "flat": 55,
+                "type": "bonus"
+            },
+            "lethality": {
+                "flat": 18,
+                "type": "bonus"
+            },
+            "ability_haste": {
+                "flat": 10,
+                "type": "bonus"
+            }
+        },
+        "passive": {
+            "name": "Energized / Galvanize / Firmament",
+            "description": "Moving and basic attacking generates energized stacks, up to 100. / Energized stack generation is increased by 75% for distance travelled from dashes, lunges, and blinks, as well as while moving in stealth. / When fully energized your next basic attack deals 100 bonus physican damage on hit and slows target by 99 / 20 for .75 seconds."
+        },
+        "exclusive_group": ""
     }
 }
