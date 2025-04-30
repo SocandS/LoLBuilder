@@ -1,0 +1,10 @@
+{
+    "Aatrox": {
+        "passive": { "name": "Deathbringer Stance", "description": ".."},
+        "Q": { "name": "The Darkin Blade", "description": ".."},
+        "W": { "name": "Infernal Chains", "description": ".."},
+        "E": { "name": "Umbral Dash", "description": ".."},
+        "R": { "name": "World Ender", "description": ".."},
+        "multiform": false
+    }
+}
