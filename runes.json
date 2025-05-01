@@ -60,5 +60,237 @@
                 "description": "Deal increased damage while you are low on health."
             }
         }
+    },
+    "Domination": {
+        "keystone": {
+            "1": {
+                "name": "Electrocute",
+                "description": ""
+            },
+            "2": {
+                "name": "Dark Harvest",
+                "description": ""
+            },
+            "3": {
+                "name": "Hail of Blades",
+                "description": ""
+            }
+        },
+        "slot1": {
+            "1": {
+                "name": "Cheap Shot",
+                "description": ""
+            },
+            "2": {
+                "name": "Taste of Blood",
+                "description": ""
+            },
+            "3": {
+                "name": "Sudden Impact",
+                "description": ""
+            }
+        },
+        "slot2": {
+            "1": {
+                "name": "Deep Ward",
+                "description": ""
+            },
+            "2": {
+                "name": "Sixth Sense",
+                "description": ""
+            },
+            "3": {
+                "name": "Grisley Mementos",
+                "description": ""
+            }
+        },
+        "slot3": {
+            "1": {
+                "name": "Treasure Hunter",
+                "description": ""
+            },
+            "2": {
+                "name": "Relentless Hunter",
+                "description": ""
+            },
+            "3": {
+                "name": "Ultimate Hunter",
+                "description": ""
+            }
+        }
+    },
+    "Sorcery": {
+        "keystone": {
+            "1": {
+                "name": "Summon Aery",
+                "description": ""
+            },
+            "2": {
+                "name": "Arcane Comet",
+                "description": ""
+            },
+            "3": {
+                "name": "Phase Rush",
+                "description": ""
+            }
+        },
+        "slot1": {
+            "1": {
+                "name": "Axiom Arcanist",
+                "description": ""
+            },
+            "2": {
+                "name": "Manaflow Band",
+                "description": ""
+            },
+            "3": {
+                "name": "Nimbus Cloak",
+                "description": ""
+            }
+        },
+        "slot2": {
+            "1": {
+                "name": "Transcendence",
+                "description": ""
+            },
+            "2": {
+                "name": "Celerity",
+                "description": ""
+            },
+            "3": {
+                "name": "Absolute Focus",
+                "description": ""
+            }
+        },
+        "slot3": {
+            "1": {
+                "name": "Scorch",
+                "description": ""
+            },
+            "2": {
+                "name": "Water Walking",
+                "description": ""
+            },
+            "3": {
+                "name": "Gathering Storm",
+                "description": ""
+            }
+        }
+    },
+    "Resolve": {
+        "keystone": {
+            "1": {
+                "name": "Grasp of the Undying",
+                "description": ""
+            },
+            "2": {
+                "name": "Aftershock",
+                "description": ""
+            },
+            "3": {
+                "name": "Guardian",
+                "description": ""
+            }
+        },
+        "slot1": {
+            "1": {
+                "name": "Demolish",
+                "description": ""
+            },
+            "2": {
+                "name": "Font of Life",
+                "description": ""
+            },
+            "3": {
+                "name": "Shield Bash",
+                "description": ""
+            }
+        },
+        "slot2": {
+            "1": {
+                "name": "Conditioning",
+                "description": ""
+            },
+            "2": {
+                "name": "Second Wind",
+                "description": ""
+            },
+            "3": {
+                "name": "Bone Plating",
+                "description": ""
+            }
+        },
+        "slot3": {
+            "1": {
+                "name": "Overgrowth",
+                "description": ""
+            },
+            "2": {
+                "name": "Revitalize",
+                "description": ""
+            },
+            "3": {
+                "name": "Unflinching",
+                "description": ""
+            }
+        }
+    },
+    "Inspiration": {
+        "keystone": {
+            "1": {
+                "name": "Glacial Augment",
+                "description": ""
+            },
+            "2": {
+                "name": "Unsealed Spellbook",
+                "description": ""
+            },
+            "3": {
+                "name": "First Strike",
+                "description": ""
+            }
+        },
+        "slot1": {
+            "1": {
+                "name": "Hextech Flashtraption",
+                "description": ""
+            },
+            "2": {
+                "name": "Magical Footwear",
+                "description": ""
+            },
+            "3": {
+                "name": "Cashback",
+                "description": ""
+            }
+        },
+        "slot2": {
+            "1": {
+                "name": "Triple Tonic",
+                "description": ""
+            },
+            "2": {
+                "name": "Time Warp Tonic",
+                "description": ""
+            },
+            "3": {
+                "name": "Biscuit Delivery",
+                "description": ""
+            }
+        },
+        "slot3": {
+            "1": {
+                "name": "Cosmic Insight",
+                "description": ""
+            },
+            "2": {
+                "name": "Approach Velocity",
+                "description": ""
+            },
+            "3": {
+                "name": "Jack of All Trades",
+                "description": ""
+            }
+        }
     }
 }
