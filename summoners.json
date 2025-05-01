@@ -1,0 +1,93 @@
+{
+    "Flash": {
+        "description": "Blinks your champion a short distance toward your cursor.",
+        "range": 425,
+        "cooldown": 300,
+        "conditions": [
+            "Cannot be used while rooted, grounded, or suppressed.",
+            "Can be used while stunned or silenced, but has no effect until they wear off.",
+            "Cannot be used while channeling; will cast after the channel completes."
+        ]
+    },
+    "Ignite": {
+        "description": "Ignites target enemy champion, dealing true damage over 5 seconds and applying Grievous Wounds.",
+        "range": 600,
+        "cooldown": 180,
+        "conditions": [
+            "Target must be a champion.",
+            "Applies Grievous Wounds for 5 seconds.",
+            "Can be used during crowd control."
+        ]
+    },
+    "Smite": {
+        "description": "Deals true damage to jungle monsters or minions. Upgrades after usage to empower healing and slow champions.",
+        "range": 500,
+        "cooldown": 15,
+        "conditions": [
+            "Primarily used on jungle monsters. Used in conjunction with jungle item that staarts with 40 stacks.",
+            "Jungle item upgrades automatically after reducing jungle item stacks to 20  - 900 true damage smite after first upgrade.",
+            "Jungle item upgrades automatically and clears from inventory after all stacks are gone (typically 40 cammps cleared) - 1200 true damage smite to monsters",
+            "Can slow enemy champions after upgrade."
+        ]
+    },
+    "Ghost": {
+        "description": "Gain bonus movement speed and phase through units for 15 seconds. Takedowns extend duration.",
+        "range": null,
+        "cooldown": 210,
+        "conditions": [
+            "Can be cast while crowd controlled.",
+            "Speed bonus ramps over time.",
+            "Takedowns extend duration by 7 seconds."
+        ]
+    },
+    "Exhaust": {
+        "description": "Exhausts target enemy champion, reducing their movement speed and damage dealt for 3 seconds.",
+        "range": 650,
+        "cooldown": 210,
+        "conditions": [
+            "Target must be a champion.",
+            "Reduces damage dealt by 40% and movement speed by 30%.",
+            "Can be used while crowd controlled."
+        ]
+    },
+    "Heal": {
+        "description": "Restores health to your champion and an ally, and grants bonus movement speed for 1 second.",
+        "range": 850,
+        "cooldown": 240,
+        "conditions": [
+            "Heals both you and the lowest-health nearby ally.",
+            "Healing is halved for targets recently affected by Heal.",
+            "Applies a brief movement speed boost."
+        ]
+    },
+    "Barrier": {
+        "description": "Shields your champion for 2 seconds.",
+        "range": null,
+        "cooldown": 180,
+        "conditions": [
+            "Only affects yourself.",
+            "Shield scales with level.",
+            "Can be used while crowd controlled."
+        ]
+    },
+    "Cleanse": {
+        "description": "Removes all crowd control debuffs (except airborne effects) and reduces incoming CC duration for 3 seconds.",
+        "range": null,
+        "cooldown": 210,
+        "conditions": [
+            "Does not remove knock-ups, knockbacks, or suppression.",
+            "Removes slows, roots, stuns, taunts, fears, charms, polymorphs, blinds, and silence.",
+            "Can be cast while crowd controlled (except suppressed/airborne)."
+        ]
+    },
+    "Teleport": {
+        "description": "Channels for 4 seconds to teleport to an allied tower, minion, or ward. Upgrades to Unleashed Teleport after 10 minutes.",
+        "range": "Global",
+        "cooldown": 360,
+        "conditions": [
+            "Interruptible during the channel.",
+            "Unleashed version can target wards and towers.",
+            "Has a delay before arrival (3.5s to 4s depending on upgrade)."
+        ]
+    }
+}

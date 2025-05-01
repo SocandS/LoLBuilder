@@ -1,0 +1,64 @@
+{
+    "Precision": {
+        "keystone": {
+            "1": {
+                "name": "Press The Attack",
+                "description": "Hitting an enemy champion with 3 consecutive basic attacks deals bonus adaptive damage and makes them take increased damage from all sources."
+            },
+            "2": {
+                "name": "Lethal Tempo",
+                "description": "After attacking a champion, gain bonus attack speed and increase your attack speed cap for a duration."
+            },
+            "3": {
+                "name": "Fleet Footwork",
+                "description": "Moving and attacking builds Energy stacks. At 100 stacks, your next attack heals you and grants bonus move speed."
+            },
+            "4": {
+                "name": "Conqueror",
+                "description": "Basic attacks and abilities grant stacks of adaptive force. At max stacks, heal for a portion of damage dealt to champions."
+            }
+        },
+        "slot1": {
+            "1": {
+                "name": "Absorb Life",
+                "description": "Killing a minion or monster heals you for 1-23 (based on level)."
+            },
+            "2": {
+                "name": "Triumph",
+                "description": "Scoring a takedown heals you for 2.5% of your max health (+ 5% of your missing health) and grants you an additional 20 gold."
+            },
+            "3": {
+                "name": "Presence of Mind",
+                "description": "Takedowns restore a portion of your maximum mana or energy."
+            }
+        },
+        "slot2": {
+            "1": {
+                "name": "Legend: Alacrity",
+                "description": "Gain 3% bonus attack speed per takedown ."
+            },
+            "2": {
+                "name": "Legend: Tenacity",
+                "description": "Gain tenacity from takedowns (reduces crowd control effects)."
+            },
+            "3": {
+                "name": "Legend: Haste",
+                "description": "Gain ability haste from takedowns."
+            }
+        },
+        "slot3": {
+            "1": {
+                "name": "Coup de Grace",
+                "description": "Deal increased damage to low-health enemy champions."
+            },
+            "2": {
+                "name": "Cut Down",
+                "description": "Deal bonus damage to champions with more max health than you."
+            },
+            "3": {
+                "name": "Last Stand",
+                "description": "Deal increased damage while you are low on health."
+            }
+        }
+    }
+}

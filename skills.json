@@ -1,10 +1,119 @@
 {
     "Aatrox": {
-        "passive": { "name": "Deathbringer Stance", "description": ".."},
-        "Q": { "name": "The Darkin Blade", "description": ".."},
-        "W": { "name": "Infernal Chains", "description": ".."},
-        "E": { "name": "Umbral Dash", "description": ".."},
-        "R": { "name": "World Ender", "description": ".."},
+        "passive": { 
+            "name": "Deathbringer Stance", 
+            "description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health."
+        },
+        "Q": { 
+            "name": "The Darkin Blade", 
+            "description": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect."
+        },
+        "W": { 
+            "name": "Infernal Chains", 
+            "description": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again."
+        },
+        "E": { 
+            "name": "Umbral Dash", 
+            "description": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction."
+        },
+        "R": { 
+            "name": "World Ender", 
+            "description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended."
+        },
+        "multiform": false
+    },
+    "Udyr": {
+        "passive": {
+            "name": "Bridge Between",
+            "description": "Awakened Spirit: Udyr has four basic abilities that swap between stances. He can periodically recast his active stance to Awaken it for bonus effects, with a shared cooldown between stances. Monk Training: Each time Udyr enters or Awakens a stance, his next two attacks gain attack speed and refund some of Awakens cooldown."
+        },
+        "Q": {
+            "standard": {
+                "name": "Wilding Claw",
+                "description": "Udyr gains a burst of attack speed and his next two attacks deal bonus physical damage."
+            },
+            "awakened": {
+                "name": "Awakened Wilding Claw",
+                "description": "Udyr gains even more attack speed, and his next two attacks chain lightning off the target, bouncing up to 6 times. Lightning can strike the same target multiple times, dealing heavy damage to isolated targets."
+            }
+        },
+        "W": {
+            "standard": {
+                "name": "Iron Mantle",
+                "description": "Udyr gains a shield and his next two attacks restore health."
+            },
+            "awakened": {
+                "name": "Awakened Iron Mantle",
+                "description": "Udyr gains a bigger shield, his next two attacks heal even more, and he restores a percentage of his max health over the next few seconds."
+            }
+        },
+        "E": {
+            "standard": {
+                "name": "Blazing Stampede",
+                "description": "Udyr gains a burst of move speed. His first attack against each target while in this stance lunges a short distance and stuns them (per-unit cooldown)."   
+            },
+            "awakened": {
+                "name": "Awakened Blazing Stampede",
+                "description": "Udyr gains even more move speed and briefly becomes immune to crowd control."
+            }
+
+        },
+        "R": {
+            "standard": {
+                "name": "Wingborne Storm",
+                "description": "Udyr temporarily summons a storm around him that slows and damages nearby units. His next two attacks cause the storm to pulse, dealing bonus magic damage."
+            },
+            "awakened": {
+                "name": "Awakened Wingborn Storm",
+                "description": "Udyr unleashes the storm, causing it to deal additional damage and chase after nearby enemies."
+            }
+        },
+        "multiform": true
+    },
+    "Shaco": {
+        "passive": {
+            "name": "Backstab",
+            "description": "Shaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind."
+        },
+        "Q": {
+            "name": "Deceive",
+            "description": "Shaco becomes Invisible and teleports to target location. His first attack while Invisible is empowered, dealing bonus damage and critically striking if he attacks from behind."
+        },
+        "W": {
+            "name": "Jack In The Box",
+            "description": "Shaco creates a hidden animated Jack-in-the-Box. When triggered, it will fear and attack nearby enemies."
+        },
+        "E": {
+            "name": "Two-Shiv Poison",
+            "description": "Shaco's Shivs passively poison targets on hit, slowing their Move Speed. He can throw his Shivs to deal damage and poison the target. The thrown Shiv deals bonus damage if the target is below 30% health."
+        },
+        "R": {
+            "name": "Hallucinate",
+            "description": "Shaco creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets). Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies."
+        },
+        "multiform": false
+    },
+    "Trundle": {
+        "passive": {
+            "name": "King's Tribute",
+            "description": "When an enemy unit dies near Trundle, he heals for a percent of its maximum Health."
+        },
+        "Q": {
+            "name": "Chomp",
+            "description": "Trundle bites his opponent, dealing damage, briefly slowing and sapping some of their Attack Damage."
+        },
+        "W": {
+            "name": "Frozen Domain",
+            "description": "Trundle turns target location into his domain, gaining Attack Speed, Move Speed, and increased healing from all sources while on it."
+        },
+        "E": {
+            "name": "Pillar of Ice",
+            "description": "Trundle creates an ice pillar at target location, becoming impassable terrain and slowing all nearby enemy units."
+        },
+        "R": {
+            "name": "Subjugate",
+            "description": "Trundle immediately steals a percent of his target's Health, Armor and Magic Resistance. Over the next 4 seconds the amount of Health, Armor, and Magic Resistance stolen is doubled."
+        },
         "multiform": false
     }
 }
